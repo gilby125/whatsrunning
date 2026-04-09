@@ -3,7 +3,7 @@ services:
   whatsrunning:
     image: mikeage/whatsrunning:latest
     ports:
-      - "80:4444"
+      - "4444:5000"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
